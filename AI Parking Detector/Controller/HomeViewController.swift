@@ -5,6 +5,8 @@
 //  Created by Kevaughn Clarke on 10/7/20.
 //
 
+//image of parking lot design by <a href="http://www.freepik.com">Designed by macrovector / Freepik</a>
+
 import UIKit
 import CoreML
 import Vision
