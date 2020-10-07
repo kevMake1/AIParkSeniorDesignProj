@@ -42,7 +42,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1000.0000000000001" y="117.85714285714285"/>
+            <point key="canvasLocation" x="1923" y="-124"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="OVt-WQ-aqE">
+            <objects>
+                <viewController id="aUN-RG-t4Z" customClass="HomeViewController" customModule="AI_Parking_Detector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4dD-MI-hNg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Urw-un-Yg9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hyR-ru-Enl"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="SatettaliteView" id="TqZ-Sh-L98"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDr-cM-fj4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="83s-Dl-29X">
@@ -55,7 +74,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BQp-en-mQJ"/>
+                        <segue destination="aUN-RG-t4Z" kind="relationship" relationship="rootViewController" id="74l-B6-kRK"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u53-QK-UlX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
