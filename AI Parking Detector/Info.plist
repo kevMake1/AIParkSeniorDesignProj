@@ -21,7 +21,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Camera</string>
+	<string>Access to camera to detect parking spots.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Photo Library</string>
 	<key>UIApplicationSceneManifest</key>

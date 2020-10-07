@@ -64,6 +64,9 @@
                                         <state key="normal" title="Camera">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="cameraBtnPressed:" destination="aUN-RG-t4Z" eventType="touchUpInside" id="ODR-4X-w9U"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2H-qk-P8w" userLabel="Satellite View">
                                         <rect key="frame" x="0.0" y="67" width="394" height="60"/>
@@ -92,11 +95,31 @@
                     <navigationItem key="navigationItem" id="hyR-ru-Enl"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="SatelliteView" id="TqZ-Sh-L98"/>
+                        <segue destination="SgT-Pd-0nO" kind="show" identifier="CameraView" id="Ar1-Hv-aGx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VDr-cM-fj4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="934.78260869565224" y="117.85714285714285"/>
+        </scene>
+        <!--Parking Recognition View Controller-->
+        <scene sceneID="LOn-o0-Mmv">
+            <objects>
+                <viewController id="SgT-Pd-0nO" customClass="ParkingRecognitionViewController" customModule="AI_Parking_Detector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q4v-kJ-R3B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Rq2-9N-Ety"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3m8-kY-Idd"/>
+                    <connections>
+                        <outlet property="previewView" destination="Q4v-kJ-R3B" id="U8M-Z2-Ug3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26P-DQ-Bfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1926" y="601"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="83s-Dl-29X">

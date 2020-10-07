@@ -6,21 +6,36 @@
 //
 
 import UIKit
+import CoreML
+import Vision
+import ImageIO
 
 class HomeViewController: UIViewController {
 
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+//MARK:- Navigation
+    
     @IBAction func satelliteViewBtnPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "SatelliteView", sender: self)
     }
     
 
+    @IBAction func cameraBtnPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "CameraView", sender: self)
+    }
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
