@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794D6C3824BE8E1200BA2151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C3724BE8E1200BA2151 /* AppDelegate.swift */; };
+		794D6C3A24BE8E1200BA2151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C3924BE8E1200BA2151 /* SceneDelegate.swift */; };
+		794D6C3C24BE8E1200BA2151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C3B24BE8E1200BA2151 /* ViewController.swift */; };
+		794D6C3F24BE8E1200BA2151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794D6C3D24BE8E1200BA2151 /* Main.storyboard */; };
+		794D6C4224BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C4024BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld */; };
+		794D6C4424BE8E1300BA2151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794D6C4324BE8E1300BA2151 /* Assets.xcassets */; };
+		794D6C4724BE8E1300BA2151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794D6C4524BE8E1300BA2151 /* LaunchScreen.storyboard */; };
+		794D6C5224BE8E1300BA2151 /* AI_Parking_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C5124BE8E1300BA2151 /* AI_Parking_DetectorTests.swift */; };
+		794D6C5D24BE8E1300BA2151 /* AI_Parking_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C5C24BE8E1300BA2151 /* AI_Parking_DetectorUITests.swift */; };
+		794D6C6B24BE8E9700BA2151 /* ParkingDetector 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C6A24BE8E9700BA2151 /* ParkingDetector 2.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794D6C4E24BE8E1300BA2151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794D6C2C24BE8E1200BA2151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794D6C3324BE8E1200BA2151;
+			remoteInfo = "AI Parking Detector";
+		};
+		794D6C5924BE8E1300BA2151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794D6C2C24BE8E1200BA2151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 794D6C3324BE8E1200BA2151;
+			remoteInfo = "AI Parking Detector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		794D6C3424BE8E1200BA2151 /* AI Parking Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Parking Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794D6C3724BE8E1200BA2151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		794D6C3924BE8E1200BA2151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		794D6C3B24BE8E1200BA2151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794D6C3E24BE8E1200BA2151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		794D6C4124BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AI_Parking_Detector.xcdatamodel; sourceTree = "<group>"; };
+		794D6C4324BE8E1300BA2151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		794D6C4624BE8E1300BA2151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		794D6C4824BE8E1300BA2151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794D6C4D24BE8E1300BA2151 /* AI Parking DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Parking DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794D6C5124BE8E1300BA2151 /* AI_Parking_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Parking_DetectorTests.swift; sourceTree = "<group>"; };
+		794D6C5324BE8E1300BA2151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794D6C5824BE8E1300BA2151 /* AI Parking DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI Parking DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794D6C5C24BE8E1300BA2151 /* AI_Parking_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_Parking_DetectorUITests.swift; sourceTree = "<group>"; };
+		794D6C5E24BE8E1300BA2151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794D6C6A24BE8E9700BA2151 /* ParkingDetector 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ParkingDetector 2.mlmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794D6C3124BE8E1200BA2151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794D6C4A24BE8E1300BA2151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794D6C5524BE8E1300BA2151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794D6C2B24BE8E1200BA2151 = {
+			isa = PBXGroup;
+			children = (
+				794D6C3624BE8E1200BA2151 /* AI Parking Detector */,
+				794D6C5024BE8E1300BA2151 /* AI Parking DetectorTests */,
+				794D6C5B24BE8E1300BA2151 /* AI Parking DetectorUITests */,
+				794D6C3524BE8E1200BA2151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794D6C3524BE8E1200BA2151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794D6C3424BE8E1200BA2151 /* AI Parking Detector.app */,
+				794D6C4D24BE8E1300BA2151 /* AI Parking DetectorTests.xctest */,
+				794D6C5824BE8E1300BA2151 /* AI Parking DetectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794D6C3624BE8E1200BA2151 /* AI Parking Detector */ = {
+			isa = PBXGroup;
+			children = (
+				794D6C6E24BE8F5600BA2151 /* Model */,
+				794D6C6D24BE8F4D00BA2151 /* View */,
+				794D6C6C24BE8F3000BA2151 /* Controller */,
+				794D6C3724BE8E1200BA2151 /* AppDelegate.swift */,
+				794D6C3924BE8E1200BA2151 /* SceneDelegate.swift */,
+				794D6C4324BE8E1300BA2151 /* Assets.xcassets */,
+				794D6C4524BE8E1300BA2151 /* LaunchScreen.storyboard */,
+				794D6C4824BE8E1300BA2151 /* Info.plist */,
+				794D6C4024BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld */,
+			);
+			path = "AI Parking Detector";
+			sourceTree = "<group>";
+		};
+		794D6C5024BE8E1300BA2151 /* AI Parking DetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				794D6C5124BE8E1300BA2151 /* AI_Parking_DetectorTests.swift */,
+				794D6C5324BE8E1300BA2151 /* Info.plist */,
+			);
+			path = "AI Parking DetectorTests";
+			sourceTree = "<group>";
+		};
+		794D6C5B24BE8E1300BA2151 /* AI Parking DetectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				794D6C5C24BE8E1300BA2151 /* AI_Parking_DetectorUITests.swift */,
+				794D6C5E24BE8E1300BA2151 /* Info.plist */,
+			);
+			path = "AI Parking DetectorUITests";
+			sourceTree = "<group>";
+		};
+		794D6C6C24BE8F3000BA2151 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				794D6C3B24BE8E1200BA2151 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		794D6C6D24BE8F4D00BA2151 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				794D6C3D24BE8E1200BA2151 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		794D6C6E24BE8F5600BA2151 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				794D6C6A24BE8E9700BA2151 /* ParkingDetector 2.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794D6C3324BE8E1200BA2151 /* AI Parking Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794D6C6124BE8E1300BA2151 /* Build configuration list for PBXNativeTarget "AI Parking Detector" */;
+			buildPhases = (
+				794D6C3024BE8E1200BA2151 /* Sources */,
+				794D6C3124BE8E1200BA2151 /* Frameworks */,
+				794D6C3224BE8E1200BA2151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Parking Detector";
+			productName = "AI Parking Detector";
+			productReference = 794D6C3424BE8E1200BA2151 /* AI Parking Detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794D6C4C24BE8E1300BA2151 /* AI Parking DetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794D6C6424BE8E1300BA2151 /* Build configuration list for PBXNativeTarget "AI Parking DetectorTests" */;
+			buildPhases = (
+				794D6C4924BE8E1300BA2151 /* Sources */,
+				794D6C4A24BE8E1300BA2151 /* Frameworks */,
+				794D6C4B24BE8E1300BA2151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794D6C4F24BE8E1300BA2151 /* PBXTargetDependency */,
+			);
+			name = "AI Parking DetectorTests";
+			productName = "AI Parking DetectorTests";
+			productReference = 794D6C4D24BE8E1300BA2151 /* AI Parking DetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		794D6C5724BE8E1300BA2151 /* AI Parking DetectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 794D6C6724BE8E1300BA2151 /* Build configuration list for PBXNativeTarget "AI Parking DetectorUITests" */;
+			buildPhases = (
+				794D6C5424BE8E1300BA2151 /* Sources */,
+				794D6C5524BE8E1300BA2151 /* Frameworks */,
+				794D6C5624BE8E1300BA2151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794D6C5A24BE8E1300BA2151 /* PBXTargetDependency */,
+			);
+			name = "AI Parking DetectorUITests";
+			productName = "AI Parking DetectorUITests";
+			productReference = 794D6C5824BE8E1300BA2151 /* AI Parking DetectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794D6C2C24BE8E1200BA2151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					794D6C3324BE8E1200BA2151 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					794D6C4C24BE8E1300BA2151 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 794D6C3324BE8E1200BA2151;
+					};
+					794D6C5724BE8E1300BA2151 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 794D6C3324BE8E1200BA2151;
+					};
+				};
+			};
+			buildConfigurationList = 794D6C2F24BE8E1200BA2151 /* Build configuration list for PBXProject "AI Parking Detector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794D6C2B24BE8E1200BA2151;
+			productRefGroup = 794D6C3524BE8E1200BA2151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794D6C3324BE8E1200BA2151 /* AI Parking Detector */,
+				794D6C4C24BE8E1300BA2151 /* AI Parking DetectorTests */,
+				794D6C5724BE8E1300BA2151 /* AI Parking DetectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794D6C3224BE8E1200BA2151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794D6C4724BE8E1300BA2151 /* LaunchScreen.storyboard in Resources */,
+				794D6C4424BE8E1300BA2151 /* Assets.xcassets in Resources */,
+				794D6C3F24BE8E1200BA2151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794D6C4B24BE8E1300BA2151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794D6C5624BE8E1300BA2151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794D6C3024BE8E1200BA2151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794D6C4224BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld in Sources */,
+				794D6C3C24BE8E1200BA2151 /* ViewController.swift in Sources */,
+				794D6C3824BE8E1200BA2151 /* AppDelegate.swift in Sources */,
+				794D6C6B24BE8E9700BA2151 /* ParkingDetector 2.mlmodel in Sources */,
+				794D6C3A24BE8E1200BA2151 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794D6C4924BE8E1300BA2151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794D6C5224BE8E1300BA2151 /* AI_Parking_DetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794D6C5424BE8E1300BA2151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794D6C5D24BE8E1300BA2151 /* AI_Parking_DetectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794D6C4F24BE8E1300BA2151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794D6C3324BE8E1200BA2151 /* AI Parking Detector */;
+			targetProxy = 794D6C4E24BE8E1300BA2151 /* PBXContainerItemProxy */;
+		};
+		794D6C5A24BE8E1300BA2151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 794D6C3324BE8E1200BA2151 /* AI Parking Detector */;
+			targetProxy = 794D6C5924BE8E1300BA2151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794D6C3D24BE8E1200BA2151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794D6C3E24BE8E1200BA2151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		794D6C4524BE8E1300BA2151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794D6C4624BE8E1300BA2151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794D6C5F24BE8E1300BA2151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		794D6C6024BE8E1300BA2151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		794D6C6224BE8E1300BA2151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG6AY3RSQV;
+				INFOPLIST_FILE = "AI Parking Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kev.AI-Parking-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794D6C6324BE8E1300BA2151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG6AY3RSQV;
+				INFOPLIST_FILE = "AI Parking Detector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kev.AI-Parking-Detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		794D6C6524BE8E1300BA2151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG6AY3RSQV;
+				INFOPLIST_FILE = "AI Parking DetectorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kev.AI-Parking-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Parking Detector.app/AI Parking Detector";
+			};
+			name = Debug;
+		};
+		794D6C6624BE8E1300BA2151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG6AY3RSQV;
+				INFOPLIST_FILE = "AI Parking DetectorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kev.AI-Parking-DetectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Parking Detector.app/AI Parking Detector";
+			};
+			name = Release;
+		};
+		794D6C6824BE8E1300BA2151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG6AY3RSQV;
+				INFOPLIST_FILE = "AI Parking DetectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kev.AI-Parking-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Parking Detector";
+			};
+			name = Debug;
+		};
+		794D6C6924BE8E1300BA2151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DG6AY3RSQV;
+				INFOPLIST_FILE = "AI Parking DetectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kev.AI-Parking-DetectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Parking Detector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794D6C2F24BE8E1200BA2151 /* Build configuration list for PBXProject "AI Parking Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794D6C5F24BE8E1300BA2151 /* Debug */,
+				794D6C6024BE8E1300BA2151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794D6C6124BE8E1300BA2151 /* Build configuration list for PBXNativeTarget "AI Parking Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794D6C6224BE8E1300BA2151 /* Debug */,
+				794D6C6324BE8E1300BA2151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794D6C6424BE8E1300BA2151 /* Build configuration list for PBXNativeTarget "AI Parking DetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794D6C6524BE8E1300BA2151 /* Debug */,
+				794D6C6624BE8E1300BA2151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		794D6C6724BE8E1300BA2151 /* Build configuration list for PBXNativeTarget "AI Parking DetectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794D6C6824BE8E1300BA2151 /* Debug */,
+				794D6C6924BE8E1300BA2151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		794D6C4024BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				794D6C4124BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodel */,
+			);
+			currentVersion = 794D6C4124BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodel */;
+			path = AI_Parking_Detector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 794D6C2C24BE8E1200BA2151 /* Project object */;
+}
