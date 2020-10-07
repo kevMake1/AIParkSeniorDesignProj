@@ -9,10 +9,15 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    @IBAction func satelliteViewBtnPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "SatelliteView", sender: self)
     }
     
 

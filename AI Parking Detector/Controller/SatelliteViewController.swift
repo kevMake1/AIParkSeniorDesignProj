@@ -10,7 +10,7 @@ import CoreML
 import Vision
 import ImageIO
 
-class ViewController: UIViewController, UINavigationControllerDelegate {
+class SatelliteViewController: UIViewController, UINavigationControllerDelegate {
     
     
     @IBOutlet weak var imageView: UIImageView!
@@ -132,7 +132,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
 
 //MARK:- Image Picker delegate
 
-extension ViewController: UIImagePickerControllerDelegate{
+extension SatelliteViewController: UIImagePickerControllerDelegate{
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         picker.dismiss(animated: true, completion: nil)

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		794D6C3824BE8E1200BA2151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C3724BE8E1200BA2151 /* AppDelegate.swift */; };
 		794D6C3A24BE8E1200BA2151 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C3924BE8E1200BA2151 /* SceneDelegate.swift */; };
-		794D6C3C24BE8E1200BA2151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C3B24BE8E1200BA2151 /* ViewController.swift */; };
+		794D6C3C24BE8E1200BA2151 /* SatelliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C3B24BE8E1200BA2151 /* SatelliteViewController.swift */; };
 		794D6C3F24BE8E1200BA2151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794D6C3D24BE8E1200BA2151 /* Main.storyboard */; };
 		794D6C4224BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C4024BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld */; };
 		794D6C4424BE8E1300BA2151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794D6C4324BE8E1300BA2151 /* Assets.xcassets */; };
@@ -41,7 +41,7 @@
 		794D6C3424BE8E1200BA2151 /* AI Parking Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Parking Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		794D6C3724BE8E1200BA2151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		794D6C3924BE8E1200BA2151 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		794D6C3B24BE8E1200BA2151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794D6C3B24BE8E1200BA2151 /* SatelliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteViewController.swift; sourceTree = "<group>"; };
 		794D6C3E24BE8E1200BA2151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		794D6C4124BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AI_Parking_Detector.xcdatamodel; sourceTree = "<group>"; };
 		794D6C4324BE8E1300BA2151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		794D6C6C24BE8F3000BA2151 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				794D6C3B24BE8E1200BA2151 /* ViewController.swift */,
+				794D6C3B24BE8E1200BA2151 /* SatelliteViewController.swift */,
 				79BE5355252E250F00E9F362 /* HomeViewController.swift */,
 			);
 			path = Controller;
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				794D6C4224BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld in Sources */,
-				794D6C3C24BE8E1200BA2151 /* ViewController.swift in Sources */,
+				794D6C3C24BE8E1200BA2151 /* SatelliteViewController.swift in Sources */,
 				794D6C3824BE8E1200BA2151 /* AppDelegate.swift in Sources */,
 				794D6C6B24BE8E9700BA2151 /* ParkingDetector 2.mlmodel in Sources */,
 				794D6C3A24BE8E1200BA2151 /* SceneDelegate.swift in Sources */,
