@@ -109,10 +109,10 @@
             </objects>
             <point key="canvasLocation" x="934.78260869565224" y="117.85714285714285"/>
         </scene>
-        <!--Parking Recognition View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="LOn-o0-Mmv">
             <objects>
-                <viewController id="SgT-Pd-0nO" customClass="ParkingRecognitionViewController" customModule="AI_Parking_Detector" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SgT-Pd-0nO" customClass="CameraViewController" customModule="AI_Parking_Detector" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q4v-kJ-R3B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +121,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="3m8-kY-Idd"/>
                     <connections>
-                        <outlet property="previewView" destination="Q4v-kJ-R3B" id="U8M-Z2-Ug3"/>
+                        <outlet property="cameraView" destination="Q4v-kJ-R3B" id="fCj-SY-6F0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26P-DQ-Bfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

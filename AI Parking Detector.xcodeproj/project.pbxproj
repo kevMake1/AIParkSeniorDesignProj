@@ -19,7 +19,6 @@
 		794D6C6B24BE8E9700BA2151 /* ParkingDetector 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 794D6C6A24BE8E9700BA2151 /* ParkingDetector 2.mlmodel */; };
 		799B1B17252E37CA00B967AA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B1B16252E37CA00B967AA /* CameraViewController.swift */; };
 		79BE5356252E250F00E9F362 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE5355252E250F00E9F362 /* HomeViewController.swift */; };
-		79BFA024252E418A00A6C857 /* ParkingRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BFA023252E418A00A6C857 /* ParkingRecognitionViewController.swift */; };
 		79BFA026252E420A00A6C857 /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 79BFA025252E420A00A6C857 /* ObjectDetector.mlmodel */; };
 		79BFA028252E42FB00A6C857 /* GroundView.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 79BFA027252E42FB00A6C857 /* GroundView.mlmodel */; };
 /* End PBXBuildFile section */
@@ -60,7 +59,6 @@
 		794D6C6A24BE8E9700BA2151 /* ParkingDetector 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ParkingDetector 2.mlmodel"; sourceTree = "<group>"; };
 		799B1B16252E37CA00B967AA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		79BE5355252E250F00E9F362 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		79BFA023252E418A00A6C857 /* ParkingRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingRecognitionViewController.swift; sourceTree = "<group>"; };
 		79BFA025252E420A00A6C857 /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
 		79BFA027252E42FB00A6C857 /* GroundView.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GroundView.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,7 +148,6 @@
 				794D6C3B24BE8E1200BA2151 /* SatelliteViewController.swift */,
 				79BE5355252E250F00E9F362 /* HomeViewController.swift */,
 				799B1B16252E37CA00B967AA /* CameraViewController.swift */,
-				79BFA023252E418A00A6C857 /* ParkingRecognitionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,7 +307,6 @@
 				79BFA028252E42FB00A6C857 /* GroundView.mlmodel in Sources */,
 				794D6C6B24BE8E9700BA2151 /* ParkingDetector 2.mlmodel in Sources */,
 				799B1B17252E37CA00B967AA /* CameraViewController.swift in Sources */,
-				79BFA024252E418A00A6C857 /* ParkingRecognitionViewController.swift in Sources */,
 				794D6C3A24BE8E1200BA2151 /* SceneDelegate.swift in Sources */,
 				79BE5356252E250F00E9F362 /* HomeViewController.swift in Sources */,
 			);
