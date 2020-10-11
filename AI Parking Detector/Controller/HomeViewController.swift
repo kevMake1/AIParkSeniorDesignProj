@@ -29,11 +29,14 @@ class HomeViewController: UIViewController {
     }
     
 
-    @IBAction func cameraBtnPressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "CameraView", sender: self)
+//    @IBAction func cameraBtnPressed(_ sender: UIButton) {
+//        self.performSegue(withIdentifier: "CameraView", sender: self)
+//    }
+    
+    
+    @IBAction func groundViewBtnPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "groundView", sender: self)
     }
-    
-    
     
     
     

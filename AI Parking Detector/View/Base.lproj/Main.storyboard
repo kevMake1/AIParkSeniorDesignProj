@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17132" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0sw-OR-KEZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0sw-OR-KEZ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17502"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1923" y="-124"/>
+            <point key="canvasLocation" x="1925" y="-211"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="OVt-WQ-aqE">
@@ -61,11 +61,11 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="KhC-UI-u0u"/>
                                         </constraints>
-                                        <state key="normal" title="Camera">
+                                        <state key="normal" title="Ground View">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="cameraBtnPressed:" destination="aUN-RG-t4Z" eventType="touchUpInside" id="ODR-4X-w9U"/>
+                                            <action selector="groundViewBtnPressed:" destination="aUN-RG-t4Z" eventType="touchUpInside" id="NrA-fQ-Zrb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2H-qk-P8w" userLabel="Satellite View">
@@ -103,6 +103,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="SatelliteView" id="TqZ-Sh-L98"/>
                         <segue destination="SgT-Pd-0nO" kind="show" identifier="CameraView" id="Ar1-Hv-aGx"/>
+                        <segue destination="KP0-Xe-63x" kind="show" identifier="groundView" id="fwa-jT-Rsv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VDr-cM-fj4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -127,6 +128,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26P-DQ-Bfh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1926" y="601"/>
+        </scene>
+        <!--Ground View View Controller-->
+        <scene sceneID="gtC-s8-rFz">
+            <objects>
+                <viewController id="KP0-Xe-63x" customClass="GroundViewViewController" customModule="AI_Parking_Detector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jxB-2J-RLH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChooseImg" translatesAutoresizingMaskIntoConstraints="NO" id="WuJ-rJ-WCH">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dd6-ou-iuY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WuJ-rJ-WCH" firstAttribute="top" secondItem="dd6-ou-iuY" secondAttribute="top" id="4Py-fw-lwO"/>
+                            <constraint firstItem="WuJ-rJ-WCH" firstAttribute="leading" secondItem="dd6-ou-iuY" secondAttribute="leading" id="AKp-ab-2gm"/>
+                            <constraint firstItem="WuJ-rJ-WCH" firstAttribute="bottom" secondItem="dd6-ou-iuY" secondAttribute="bottom" id="Bws-na-DMz"/>
+                            <constraint firstItem="WuJ-rJ-WCH" firstAttribute="trailing" secondItem="dd6-ou-iuY" secondAttribute="trailing" id="uIc-Jv-Wzn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aUc-5s-HyU">
+                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="1Kt-oK-qOg">
+                            <connections>
+                                <action selector="imgPickerBtnPressed:" destination="KP0-Xe-63x" id="gnh-2y-Yd5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="WuJ-rJ-WCH" id="dlz-A6-ZU6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="taE-Hm-182" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3044.9275362318845" y="242.41071428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="83s-Dl-29X">
