@@ -21,7 +21,6 @@
 		799B1B17252E37CA00B967AA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B1B16252E37CA00B967AA /* CameraViewController.swift */; };
 		79BE5356252E250F00E9F362 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE5355252E250F00E9F362 /* HomeViewController.swift */; };
 		79BFA024252E418A00A6C857 /* ParkingRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BFA023252E418A00A6C857 /* ParkingRecognitionViewController.swift */; };
-		79BFA026252E420A00A6C857 /* ObjectDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 79BFA025252E420A00A6C857 /* ObjectDetector.mlmodel */; };
 		79BFA028252E42FB00A6C857 /* GroundView.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 79BFA027252E42FB00A6C857 /* GroundView.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +62,6 @@
 		799B1B16252E37CA00B967AA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		79BE5355252E250F00E9F362 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		79BFA023252E418A00A6C857 /* ParkingRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingRecognitionViewController.swift; sourceTree = "<group>"; };
-		79BFA025252E420A00A6C857 /* ObjectDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ObjectDetector.mlmodel; sourceTree = "<group>"; };
 		79BFA027252E42FB00A6C857 /* GroundView.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GroundView.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +167,6 @@
 		794D6C6E24BE8F5600BA2151 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				79BFA025252E420A00A6C857 /* ObjectDetector.mlmodel */,
 				794D6C6A24BE8E9700BA2151 /* ParkingDetector 2.mlmodel */,
 				79BFA027252E42FB00A6C857 /* GroundView.mlmodel */,
 			);
@@ -306,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BFA026252E420A00A6C857 /* ObjectDetector.mlmodel in Sources */,
 				794D6C4224BE8E1200BA2151 /* AI_Parking_Detector.xcdatamodeld in Sources */,
 				794D6C3C24BE8E1200BA2151 /* SatelliteViewController.swift in Sources */,
 				794D6C3824BE8E1200BA2151 /* AppDelegate.swift in Sources */,
