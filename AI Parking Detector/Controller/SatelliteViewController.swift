@@ -76,7 +76,7 @@ class SatelliteViewController: UIViewController, UINavigationControllerDelegate 
             print("------------")
             
 
-            //red for occupied spots, green for available spots
+            // green for available spots, red for occupied spots
             if(detection.labels[0].identifier == "occupied parking spot"){
                 let boundingBox = detection.boundingBox
                 let rectangle = CGRect(x: boundingBox.minX*image.size.width, y: (1-boundingBox.minY-boundingBox.height)*image.size.height, width: boundingBox.width*image.size.width, height: boundingBox.height*image.size.height)
