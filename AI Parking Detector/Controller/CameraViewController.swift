@@ -44,7 +44,7 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
         do {
             deviceInput = try AVCaptureDeviceInput(device: videoDevice!)
         } catch {
-            print("Could not create video device input: \(error)")
+            print("Could not create a video device input: \(error)")
             return
         }
         
