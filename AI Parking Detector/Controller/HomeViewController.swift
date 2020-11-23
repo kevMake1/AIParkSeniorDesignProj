@@ -39,6 +39,11 @@ class HomeViewController: UIViewController {
     }
     
     
+    @IBAction func cameraBtnPressed(_ sender: UIButton) {
+        
+    }
+    
+    
     
     
     /*
