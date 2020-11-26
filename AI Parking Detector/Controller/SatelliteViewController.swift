@@ -63,7 +63,7 @@ class SatelliteViewController: UIViewController, UINavigationControllerDelegate 
         guard let image = self.imageView?.image else{ return }
         
         let imageSize = image.size
-        let scale: CGFloat = 0
+        let scale: CGFloat = 0 //scale
         
         //start UIGraphics context
         UIGraphicsBeginImageContextWithOptions(imageSize, false, scale)
