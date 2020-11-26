@@ -9,6 +9,7 @@ import UIKit
 import AVFoundation
 import Vision
 
+//configurations for the camera
 class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
 
     var bufferSize: CGSize = .zero
