@@ -40,11 +40,11 @@ class SatelliteViewController: UIViewController, UINavigationControllerDelegate 
     
 //MARK:- process, draw, and update detections
     
-    //process detections
+    //process the detections
     private func processDetections(for req: VNRequest, error: Error?){
         
         DispatchQueue.main.async {
-            //get results
+            //get the results
             guard let results = req.results else{
                 print("Unable to detect anything.\n\(error!.localizedDescription)")
                 return
@@ -68,6 +68,7 @@ class SatelliteViewController: UIViewController, UINavigationControllerDelegate 
         //start UIGraphics context
         UIGraphicsBeginImageContextWithOptions(imageSize, false, scale)
         
+        //draws on img
         image.draw(at: CGPoint.zero)
         
         //print out info
