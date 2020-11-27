@@ -24,6 +24,7 @@ class HomeViewController: UIViewController {
     
 //MARK:- Navigation
     
+    //sattiteView
     @IBAction func satelliteViewBtnPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "SatelliteView", sender: self)
     }
@@ -33,7 +34,7 @@ class HomeViewController: UIViewController {
 //        self.performSegue(withIdentifier: "CameraView", sender: self)
 //    }
     
-    
+    //groundView
     @IBAction func groundViewBtnPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "groundView", sender: self)
     }
