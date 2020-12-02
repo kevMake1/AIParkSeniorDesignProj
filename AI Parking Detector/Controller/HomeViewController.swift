@@ -39,7 +39,7 @@ class HomeViewController: UIViewController {
         self.performSegue(withIdentifier: "groundView", sender: self)
     }
     
-    //camera View
+    //cameraView
     @IBAction func cameraBtnPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "CameraView", sender: self)
     }
