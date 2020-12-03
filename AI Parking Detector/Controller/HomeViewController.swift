@@ -24,7 +24,7 @@ class HomeViewController: UIViewController {
     
 //MARK:- Navigation
     
-    //sattite view
+    //sattiteview
     @IBAction func satelliteViewBtnPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "SatelliteView", sender: self)
     }
